@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Prediction Noob</title>
+    <link rel="stylesheet" href="/b0dcca.css" />
+    <style>
+
+/* START GENERAL FORMAT */
+body{
+	background-color:#96A8C8;
+	text-align:center;
+	font-size:16px;
+	font-variant:small-caps;
+	font-family:Lucida,Helvetica,sans-serif;
+	font-weight:500;
+	text-decoration: none;
+	position: absolute;
+	left: 50%;
+	width: 780px;
+	margin-left: -390px;
+}
+a{
+	color:#96A8C8;
+	text-decoration:none;
+	font-weight:800
+}
+a:hover{
+	text-decoration:underline
+}
+img{
+	border:0
+}
+.box { /*any of the box layouts & white backgrounds*/
+	background:white;
+	border-style:solid;
+	border-width:1.5px;
+	border-color:#071419;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+}
+/* END GENERAL FORMAT */
+/* START UPPER LAYOUT */
+#topContainer{ 
+	width:780px;
+	position:relative;
+	overflow:hidden;
+}
+#topLeft{
+	width:166px;
+	float:left;
+	position:relative;
+	text-align:left;
+	padding: 17px;
+}
+#topLeft ul {
+    margin: 0;
+    list-style-type: none;
+}
+#topLeft a {
+    color: #282B30;
+    font-size: 21px;
+    font-weight: 800;
+}
+#topLeft a:hover {
+    text-decoration: underline;
+}
+#bgLeft {
+	float: left;
+	left:0;
+	width: 200px;
+	bottom:0;
+	top: 0px;
+}
+#topRight {
+	width:560px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:15px;
+	float:right;
+	position:relative;
+	text-align:left;
+	line-height: 150%;
+}
+#masthead {
+	display: block;
+}
+#slogan {
+        padding: 20px;
+	display: inline-block;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 800;
+	line-height: 120%;
+	vertical-align: top;
+}   
+#bgRight {
+	right: 0;
+	float: right;
+	width: 572px;
+	bottom:0;
+	top: 0px;
+}
+.bg { /* necessary for positioning box layouts  for bg */
+	position:absolute;
+	z-index:-1;
+}
+/* END UPPER LAYOUT */
+
+/*START MIDDLE */
+#middleContainer {
+	width:780px;
+	margin: 5px  auto;
+	padding: 10px 0;
+}
+
+#ctitle {
+    margin: 10px;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+ul.comicNav {
+	padding:0;
+	list-style-type:none;
+}
+ul.comicNav li {
+	display: inline;
+}
+
+ul.comicNav  li a {
+	/*background-color: #6E6E6E;*/
+	background-color:#6E7B91;
+	color: #FFF;
+	border: 1.5px solid #333;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 1.5px 12px;
+	margin: 0 4px;
+	text-decoration: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: 0 0 5px 0 gray;
+	-moz-box-shadow: 0 0 5px 0 gray;
+	-webkit-box-shadow: 0 0 5px 0 gray;	
+}
+
+
+ul.comicNav a:hover, ul.comicNav a:focus {
+	background-color: #FFF;
+	color: #6E7B91;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.comicInfo {
+	font-size:12px;
+	font-style:italic;
+	font-weight:800;
+}
+#bottom {
+	margin-top:5px;
+	padding:25px 15px;
+	width:750px;
+}
+#comicLinks {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+#footnote {
+    clear: both;
+    font-size: 6px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+#licenseText {
+    display: block;
+    margin: auto;
+    width: 410px;
+}
+
+#transcript {display: none;}
+
+#middleContainer { position:relative; left:50%; margin-left:-390px; }
+#comic .comic { position:absolute; }
+#comic .panel, #comic .cover, #comic .panel img { position:absolute; }
+#comic .cover { z-index:10; }
+#comic table { margin: auto; }
+
+@font-face {
+  font-family: 'xkcd-Regular';
+  src: url('//xkcd.com/fonts/xkcd-Regular.eot?') format('eot'), url('//xkcd.com/fonts/xkcd-Regular.otf') format('opentype');
+}
+
+
+     body {
+       font-family: Tahoma, Verdana, Segoe, sans-serif;
+     }
+
+	h1 {
+	margin-left: 20px;
+	}
+
+     h2 {
+       font-size: 1.2em;
+       color: gray
+     }
+
+     .space {
+       margin-bottom: 20 px;
+     }
+
+     .wrapper {
+       width: 800px;
+       margin-left: 20px;
+       margin-bottom: 5px;
+     }
+
+     input, textarea, select { border: 1px solid black; padding: 2px; background: white;
+		font-size: 20px; color: #383838; width: 520px;}
+textarea                { width: 100%; }
+input[type="submit"]    { background: #cfcfcf; border-color: #383838;
+                          cursor: pointer; width: 200px; margin-top: 10px;margin-left: 100px;}
+    </style>
+  </head>
+
+  <body>
+  	<div id="container" class ="box">
+	    <h1>Randell Munroe</h1>
+    	<h2>Randall Munroe's Robotic Brother</h2>
+    </div>
+    <div id="container2" class ="box">
+		<script>
+		var seed = "[Cueball"
+		var length = 200
+		</script>
+
+	    <form action="/" method="POST">
+    		Seed input (ex: '[Cueball' or 'Megan:'):<br>
+        	<input type="text" id ="seed" name="text" value ='[Cueball'><br>
+	        Length of generated segment (between 1 and 500):<br>
+    	    <input type="number" id ="length" name="quantity" min="1" max="500" value=200>
+			<input id="clickMe" type="button" value="submit" onclick="genAndDisplayText();" />
+	    </form>
+    	
+
+	    <div  id="display_area">
+    	  <h2 align="center" >XKCD Script</h2>
+      	<p  align="center" class="space"></p>
+      	<p align="left" style = "font-family:Xkcd; margin-left:125px;" id="text_display"></p>
+      	</div>
+    </div>
+	<script>
+	var gen_text = '[Cueball'
+
+	document.getElementById('text_display').innerHTML = gen_text;
+	</script>
+
+
+    <!-- Import the libraries: jQuery, d3, d3.slider -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
+    <script>
+
+     <!-- FUNCTION TO GET CHANCE FROM YOUR PREDICTOR WITH AJAX AND CHANGE BAR  HEIGHT -->
+
+     function genAndDisplayText(){
+
+		seed = document.getElementById("seed").value;
+        length = document.getElementById("length").value;
+        example = {};
+        example['seed'] = seed;
+        example['length'] = length;
+       $.ajax({
+         type: "POST",
+         contentType: "application/json; charset=utf-8",
+         url: "/generate",
+         dataType: "json",
+         async: true,
+         data: JSON.stringify(example, null, '\t'),
+         success: function (data) {
+           var gen_text= data["text"];
+			document.getElementById('text_display').innerHTML = gen_text.replace(/(\n)+/g, '<br>');
+
+         },
+         error: function (result) {
+         	document.getElementById('text_display').innerHTML = 'youmessedup';
+         }
+       })
+     }
+
+    </script>
+  </body>
+</html>
